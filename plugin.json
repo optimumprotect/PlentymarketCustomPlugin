@@ -1,0 +1,8 @@
+{
+    "name"              :"PlentymarketCustomPlugin",
+    "description"       :"My Custom plugin",
+    "namespace"         :"PlentymarketCustomPlugin",
+    "author"            :"optimumprotect",
+    "type"              :"template",
+    "serviceProvider"   :null
+}
