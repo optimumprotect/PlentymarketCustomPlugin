@@ -1,11 +1,11 @@
 <?php
  
-namespace HelloWorld\Providers;
+namespace PlentymarketCustomPlugin\Providers;
  
  
 use Plenty\Plugin\ServiceProvider;
  
-class HelloWorldServiceProvider extends ServiceProvider
+class PlentymarketCustomPluginServiceProvider extends ServiceProvider
 {
  
     /**
@@ -14,6 +14,6 @@ class HelloWorldServiceProvider extends ServiceProvider
  
     public function register()
     {
- 
+       $this->getApplication()->register(PlentymarketCustomPluginRouteServiceProvider::class);
     }
 }
