@@ -10,6 +10,9 @@ class PlentymarketCustomPluginRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
- 
+       public function map(Router $router)
+    {
+        $router->get('hello','PlentymarketCustomPlugin\Controllers\ContentController@sayHello');
+    }
     }
 }
